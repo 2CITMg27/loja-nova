@@ -211,3 +211,12 @@ footer {
         align-items: center;
     }
 }
+
+/* Imagens dos produtos e destaques */
+.produto-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Mantém proporção cortando excesso */
+    border-radius: 8px 8px 0 0; /* Deixa arredondado só no topo */
+    margin-bottom: 15px;
+}
